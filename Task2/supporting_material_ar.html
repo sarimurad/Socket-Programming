@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>المواد الداعمة</title>
+</head>
+<body>
+
+   <form id="requestForm" method="get">
+        <label for="fileType">اختر النوع:</label>
+        <select id="fileType" name="fileType" required>
+            <option value="image">صورة</option>
+            <option value="video">فيديو</option>
+        </select>
+        <br><br>
+        <label for="fileName">اسم الملف/الموضوع:</label>
+        <input type="text" id="fileName" name="fileName" placeholder="أدخل اسم الملف أو الموضوع" required>
+        <br><br>
+        <button type="submit">طلب</button>
+    </form>
+
+</body>
+</html>
